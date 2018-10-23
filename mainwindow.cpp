@@ -12,6 +12,7 @@ MainWindow::MainWindow(QWidget *parent) :
 {
     ui->setupUi(this);
     ui->lineEdit->setDragEnabled(true);
+    ui->label->setAlignment(Qt::AlignCenter);
 }
 
 MainWindow::~MainWindow()
